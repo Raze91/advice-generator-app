@@ -1,0 +1,44 @@
+.generator-ctnr {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    max-width: 440px;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1rem;
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+
+    p {
+        margin: 0;
+    }
+
+    .advice-id {
+        color: hsl(150, 100%, 66%);
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 4px;
+    }
+
+    .advice-quote {
+        font-size: 1.75rem;
+        color: hsl(193, 38%, 86%);
+    }
+
+    .svg {
+        background-image: url("../../images/pattern-divider-desktop.svg");
+        width: 100%;
+        height: 16px;
+    }
+
+    @media (max-width: 500px) {
+        padding: 2rem;
+        .svg {
+            width: 295px;
+            background-image: url("../../images/pattern-divider-mobile.svg");
+        }
+    }
+}
